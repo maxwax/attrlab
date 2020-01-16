@@ -1,0 +1,23 @@
+{
+  "id": "demo_bag",
+  "doc": "Demonstration data bag for attribute overrides",
+  "config": {
+    "myapp": {
+      "user": "bag_user",
+      "group": "bag_group",
+      "dir_mode": "0755",
+      "file_mode": "0655",
+      "script_mode": "0755",
+      "main_dir": "/opt/bag_app",
+      "bin_dir": "/opt/bag_app/bin",
+      "conf_dir": "/opt/bag_app/conf",
+      "log_dir": "/opt/bag_app/log",
+      "config_file": "app_config.conf",
+      "service": "bagappservice",
+      "tune": {
+        "min_threads": 5,
+        "max_threads": 10
+      }
+    }
+  }
+}

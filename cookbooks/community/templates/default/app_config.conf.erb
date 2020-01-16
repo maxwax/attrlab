@@ -1,0 +1,20 @@
+# This file deployed via Chef for 'community' - DO NOT EDIT
+
+# These are all demonstration values, they're just for testing
+
+Dummy application configuration file
+
+Deploy <%= @services %> via user <%= @user %> of group <%= @group %>
+
+File permissions:
+              Directories:  <%= @dir_mode %>
+     Non-executable files:  <%= @file_mode %>
+  Executable script files:  <%= @script_mode %>
+
+Deploy to these directories:
+           Main directory:  <%= @main_dir %>
+       Binary executables:  <%= @bin_dir %>
+      Configuration Files:  <%= @conf_dir %>
+                Log Files:  <%= @log_dir %>
+
+Tuning: <%= @min_threads %> minimum threads, <%= @max_threads %> maximum threads
